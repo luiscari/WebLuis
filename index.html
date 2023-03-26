@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!--Metadatos-->    
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
-    <title>Luis Cari</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <!-- Boostrap-->
+    <meta name="author" content="Luis Alberto Cari Aguilar">
+    <meta name="description" content="Portafolio de Desarrollo web de Luis Cari">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Titulo-->
+    <title>Luis Cari | Ingeniero de Sistemas</title>
+    <!----Favicon-->
+    <link rel="icon" type="image/x-icon" href="/img/iconcoding.png">
+    <!--Boostrap-->
+    <link  rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="/style.css">
+    <!----Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+      <a class="navbar-brand" href="#">
+        <img src="img/iconcoding.png" width="50" alt="Logo de la pagina web">
+      </a>
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Testimonios</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Contactos</a>
+          </li>
+      </ul>
+      
+    </div>
+  </div>
+    </nav>
+<!----Seccion Hero-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img  clas="hero-imagen-desarrollador" src="/img/fotoluissinfondo.png" alt="Foto de Luis Cari">
+            <h1>Hola, soy Luis Cari</h1>
+            <h2>Desarrollo Sitios web y me dedico a la enzeñansa</h2>
+        </div >
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="/img/csshtml..png" alt="imagen de html css JavaScript">  
+        </div>
+    </section>
+<!---sobre mi-->
+<section class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Luis Cari</h2>
+        <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, mollitia dolor veritatis sapiente quam quidem illo impedit debitis cum assumenda eos, veniam distinctio corporis sunt aperiam est saepe aliquam sit.</p>
+    </div>
+</section>
+
     <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/bootstrap.min.js" ></script>    
 </body>

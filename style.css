@@ -1,0 +1,79 @@
+/*barra de navegacion */
+
+.navbar{
+padding: 2rem;
+background-color:#f5f6f7 ;
+}
+
+.navbar-collapse{
+align-items: center;
+justify-content: space-between ;
+}
+
+/*estilos generales*/
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+font-size :2.5rem ;
+font-family: 'Rubik Dirt', cursive;
+}
+.seccion-oscura{
+  color: white;
+  background-color: #1b1b32;
+}
+.seccion-titulo{
+  font-size: 2rem;
+  padding:15px 0;
+  font-family: 'Rubik Dirt' , cursive;
+}
+.seccion-texto{
+  font-size: 1.2rem;
+}
+/**seccion hero*/
+.hero{
+  background-color:#f5f6f7 ;
+  min-height: 450px;
+  text-align
+  : center;
+
+}
+.hero-principal{
+  padding: 3rem;
+}
+.hero-imagen-desarrollador{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20 px;
+}
+.hero-principal h2{
+  font-size: 1.5rem;
+  color: #615151;
+
+}
+/* sobre mi*/
+.sobre-mi{
+  height: 500px;
+  padding: 10px;
+}
+.sobre-mi .contenedor{
+  max-width: 600px;
+  text-align: center;
+}
+
+/*Adaptable (Responsive) */
+@media screen and (max-width: 767px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+
+@media screen and(min-width:700 px) {
+  .hero-inferior-imagen{
+    max-width: 600px;
+  }
+}
